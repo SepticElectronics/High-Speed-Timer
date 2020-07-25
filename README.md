@@ -1,5 +1,5 @@
 # High-Speed-Timer
-High Speed Precision Timer 35ps/4ns
+##High Speed Precision Timer SEHSPT354
 
 
 A simple digital timer based on the TDC7200 for high-precision, short burst time measurement with a resolution of up to 35 ps. 
@@ -13,5 +13,6 @@ In the case of only using a microSD-Card or a USB thumb drive, the device must b
 A MIPI10 JTAG programming header is available and can be used for reprogramming the FPGA or for a boundary scan of both the FPGA and the MCU. 
 A 4-Pin (2.54 mm) UART connector is provided for reprogramming the MCU.
 
-This project started out as a Product Design / Layout challenge for myself and is still in a very early WIP-stage. Any (constructive) input is very much appreciated.
-Please note that all of the mentioned features are purely implemented on a PCB / Schematic level. No software, except for the FPGA configuration, has been written yet.
+
+*This project started out as a Product Design / Layout challenge for myself and is still in a very early WIP-stage. Any (constructive) input is very much appreciated.*
+**Please note that all of the mentioned features are purely implemented on a PCB / Schematic level. No software, except for the FPGA configuration, has been written yet.**
