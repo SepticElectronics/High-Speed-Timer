@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 2
 Title "Precision Timer"
 Date "2020-01-06"
-Rev "5"
+Rev "F"
 Comp "Septic Electronics"
 Comment1 ""
 Comment2 ""
