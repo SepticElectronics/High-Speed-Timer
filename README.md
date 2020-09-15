@@ -1,4 +1,4 @@
-# High Speed Precision Timer SEHSPT354
+# High Speed Precision Timer SEHSPT554
 
 
 A simple digital timer based on the TDC7200 for high-precision, short burst time measurement with a resolution of up to 55 ps. 
