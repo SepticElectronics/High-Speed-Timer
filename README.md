@@ -1,7 +1,7 @@
 # High Speed Precision Timer SEHSPT354
 
 
-A simple digital timer based on the TDC7200 for high-precision, short burst time measurement with a resolution of up to 35 ps. 
+A simple digital timer based on the TDC7200 for high-precision, short burst time measurement with a resolution of up to 55 ps. 
 Long interval, low precision time measurement is done using a 125 MHz oscillator and a DDR-type clocked synchronous counter, realized in a MachXO2 FPGA with a theoretical resolution of 4 ns.
 The data collection and interfacing is handled by an ATSAM4S Microcontroller.
 Two USB 2.0 and a MicroSD Interface are available for data collection.
