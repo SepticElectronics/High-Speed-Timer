@@ -2207,19 +2207,6 @@ F 3 "" H 7600 3200 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L power:+3V3 #PWR?
-U 1 1 60400833
-P 6800 4050
-AR Path="/5F82CBFD/60400833" Ref="#PWR?"  Part="1" 
-AR Path="/60400833" Ref="#PWR099"  Part="1" 
-F 0 "#PWR099" H 6800 3900 50  0001 C CNN
-F 1 "+3V3" H 6815 4223 50  0000 C CNN
-F 2 "" H 6800 4050 50  0001 C CNN
-F 3 "" H 6800 4050 50  0001 C CNN
-	1    6800 4050
-	-1   0    0    1   
-$EndComp
-$Comp
 L power:GND #PWR038
 U 1 1 604010BC
 P 6400 2500
@@ -2280,4 +2267,29 @@ Wire Notes Line
 	1000 1050 1000 4300
 Wire Notes Line
 	2700 1300 2700 4300
+$Comp
+L power:+3V3 #PWR?
+U 1 1 6084C140
+P 6400 4100
+AR Path="/5F82CBFD/6084C140" Ref="#PWR?"  Part="1" 
+AR Path="/6084C140" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 6400 3950 50  0001 C CNN
+F 1 "+3V3" H 6500 4250 50  0000 C CNN
+F 2 "" H 6400 4100 50  0001 C CNN
+F 3 "" H 6400 4100 50  0001 C CNN
+	1    6400 4100
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6400 4050 6400 4100
+Wire Wire Line
+	6400 4100 6500 4100
+Wire Wire Line
+	6800 4100 6800 4050
+Connection ~ 6400 4100
+Wire Wire Line
+	6500 4050 6500 4100
+Connection ~ 6500 4100
+Wire Wire Line
+	6500 4100 6800 4100
 $EndSCHEMATC

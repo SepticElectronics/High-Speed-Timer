@@ -1097,22 +1097,22 @@ $EndComp
 $Comp
 L SamacSys_Parts:LM74610QDGKTQ1 U?
 U 1 1 5FAA3A27
-P 2550 3350
+P 2700 3350
 AR Path="/5FAA3A27" Ref="U?"  Part="1" 
 AR Path="/5F82CBFD/5FAA3A27" Ref="U8"  Part="1" 
-F 0 "U8" H 2800 3600 50  0000 C CNN
-F 1 "LM74610QDGKTQ1" H 3050 3500 50  0000 C CNN
-F 2 "SamacSys_Parts:SOP65P490X110-8N" H 4300 3450 50  0001 L CNN
-F 3 "http://www.ti.com/lit/ds/symlink/lm74610-q1.pdf" H 4300 3350 50  0001 L CNN
-F 4 "TEXAS INSTRUMENTS - LM74610QDGKTQ1 - DIODE-OR CNTRL, 100V, VSSOP-8" H 4300 3250 50  0001 L CNN "Description"
-F 5 "1.1" H 4300 3150 50  0001 L CNN "Height"
-F 6 "Texas Instruments" H 4300 3050 50  0001 L CNN "Manufacturer_Name"
-F 7 "LM74610QDGKTQ1" H 4300 2950 50  0001 L CNN "Manufacturer_Part_Number"
-F 8 "595-LM74610QDGKTQ1" H 4300 2850 50  0001 L CNN "Mouser Part Number"
-F 9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM74610QDGKTQ1?qs=3jdCaFhktORzOMycfF4DBg%3D%3D" H 4300 2750 50  0001 L CNN "Mouser Price/Stock"
-F 10 "1330675P" H 4300 2650 50  0001 L CNN "RS Part Number"
-F 11 "http://uk.rs-online.com/web/p/products/1330675P" H 4300 2550 50  0001 L CNN "RS Price/Stock"
-	1    2550 3350
+F 0 "U8" H 2950 3600 50  0000 C CNN
+F 1 "LM74610QDGKTQ1" H 3200 3500 50  0000 C CNN
+F 2 "SamacSys_Parts:SOP65P490X110-8N" H 4450 3450 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm74610-q1.pdf" H 4450 3350 50  0001 L CNN
+F 4 "TEXAS INSTRUMENTS - LM74610QDGKTQ1 - DIODE-OR CNTRL, 100V, VSSOP-8" H 4450 3250 50  0001 L CNN "Description"
+F 5 "1.1" H 4450 3150 50  0001 L CNN "Height"
+F 6 "Texas Instruments" H 4450 3050 50  0001 L CNN "Manufacturer_Name"
+F 7 "LM74610QDGKTQ1" H 4450 2950 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "595-LM74610QDGKTQ1" H 4450 2850 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Texas-Instruments/LM74610QDGKTQ1?qs=3jdCaFhktORzOMycfF4DBg%3D%3D" H 4450 2750 50  0001 L CNN "Mouser Price/Stock"
+F 10 "1330675P" H 4450 2650 50  0001 L CNN "RS Part Number"
+F 11 "http://uk.rs-online.com/web/p/products/1330675P" H 4450 2550 50  0001 L CNN "RS Price/Stock"
+	1    2700 3350
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -1122,7 +1122,7 @@ P 1800 3300
 AR Path="/5FAA3A2D" Ref="D?"  Part="1" 
 AR Path="/5F82CBFD/5FAA3A2D" Ref="D2"  Part="1" 
 F 0 "D2" V 1550 3250 50  0000 L CNN
-F 1 "TVS 28V" V 1450 3200 50  0000 L CNN
+F 1 "TVS 28V" V 1450 3100 50  0000 L CNN
 F 2 "Diode_SMD:D_SMB" H 1800 3300 50  0001 C CNN
 F 3 "~" H 1800 3300 50  0001 C CNN
 F 4 "P6SMB30CA" V 1800 3300 50  0001 C CNN "Vendor Number"
@@ -1133,76 +1133,44 @@ $EndComp
 $Comp
 L Device:C_Small C?
 U 1 1 5FAA3A33
-P 2250 3600
+P 1650 3700
 AR Path="/5FAA3A33" Ref="C?"  Part="1" 
 AR Path="/5F82CBFD/5FAA3A33" Ref="C9"  Part="1" 
-F 0 "C9" H 2000 3550 50  0000 L CNN
-F 1 "4µ7" H 2000 3450 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2250 3600 50  0001 C CNN
-F 3 "~" H 2250 3600 50  0001 C CNN
-	1    2250 3600
+F 0 "C9" H 1400 3650 50  0000 L CNN
+F 1 "4µ7" H 1400 3550 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 1650 3700 50  0001 C CNN
+F 3 "~" H 1650 3700 50  0001 C CNN
+	1    1650 3700
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2550 3350 2250 3350
+	3650 2700 3550 2700
 Wire Wire Line
-	2250 3350 2250 3500
+	4600 3350 4600 3000
 Wire Wire Line
-	2250 3700 2250 3900
+	3350 3000 2250 3000
 Wire Wire Line
-	2250 3900 4600 3900
-Wire Wire Line
-	4600 3900 4600 3450
-Wire Wire Line
-	4600 3450 4450 3450
-Wire Wire Line
-	2550 3450 2400 3450
-Wire Wire Line
-	2400 3450 2400 3800
-Wire Wire Line
-	2400 3800 4550 3800
-Wire Wire Line
-	4550 3800 4550 3550
-Wire Wire Line
-	4550 3550 4450 3550
-Wire Wire Line
-	4550 2700 3550 2700
-Wire Wire Line
-	4450 3350 4450 3000
-Wire Wire Line
-	4450 3000 3750 3000
-Wire Wire Line
-	3350 3000 2500 3000
-Wire Wire Line
-	2500 3000 2500 3150
-Wire Wire Line
-	2500 3150 2500 3650
-Wire Wire Line
-	2500 3650 2550 3650
+	2250 3000 2250 3150
 $Comp
 L Device:C_Small C?
 U 1 1 5FAA3A4B
-P 2100 3250
+P 2050 3250
 AR Path="/5FAA3A4B" Ref="C?"  Part="1" 
 AR Path="/5F82CBFD/5FAA3A4B" Ref="C8"  Part="1" 
-F 0 "C8" H 2150 3050 50  0000 R CNN
-F 1 "100n" H 2200 2950 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2100 3250 50  0001 C CNN
-F 3 "~" H 2100 3250 50  0001 C CNN
-	1    2100 3250
+F 0 "C8" H 2100 3050 50  0000 R CNN
+F 1 "100n" H 2100 2950 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2050 3250 50  0001 C CNN
+F 3 "~" H 2050 3250 50  0001 C CNN
+	1    2050 3250
 	-1   0    0    1   
 $EndComp
 Text GLabel 1650 3150 0    50   Input ~ 10
 EXT_PWR_IN
 Wire Wire Line
 	1650 3150 1800 3150
-Connection ~ 2500 3150
 Connection ~ 1800 3150
 Wire Wire Line
-	1800 3150 2100 3150
-Connection ~ 2100 3150
-Wire Wire Line
-	2100 3150 2500 3150
+	1800 3150 2050 3150
 $Comp
 L power:GND #PWR?
 U 1 1 5FAA3A58
@@ -1219,26 +1187,20 @@ $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5FAA3A5E
-P 2100 3350
+P 2050 3350
 AR Path="/5FAA3A5E" Ref="#PWR?"  Part="1" 
 AR Path="/5F82CBFD/5FAA3A5E" Ref="#PWR059"  Part="1" 
-F 0 "#PWR059" H 2100 3100 50  0001 C CNN
-F 1 "GND" H 2105 3177 50  0001 C CNN
-F 2 "" H 2100 3350 50  0001 C CNN
-F 3 "" H 2100 3350 50  0001 C CNN
-	1    2100 3350
+F 0 "#PWR059" H 2050 3100 50  0001 C CNN
+F 1 "GND" H 2055 3177 50  0001 C CNN
+F 2 "" H 2050 3350 50  0001 C CNN
+F 3 "" H 2050 3350 50  0001 C CNN
+	1    2050 3350
 	-1   0    0    -1  
 $EndComp
 Text GLabel 4650 3000 2    50   Output ~ 10
 EXT_PWR_PROT
-Wire Wire Line
-	4450 3000 4650 3000
-Connection ~ 4450 3000
-Wire Wire Line
-	4550 2700 4550 3550
-Connection ~ 4550 3550
-NoConn ~ 2550 3550
-NoConn ~ 4450 3650
+NoConn ~ 2700 3550
+NoConn ~ 4600 3650
 $Comp
 L Device:Q_NMOS_GSD Q?
 U 1 1 5FAA3A6B
@@ -1808,4 +1770,35 @@ Wire Wire Line
 Wire Wire Line
 	7450 6250 7550 6250
 Connection ~ 7550 6250
+Text GLabel 4600 3550 2    50   Output ~ 0
+GATE_DRV
+Text GLabel 4600 3450 2    50   Output ~ 0
+VCAPH
+Text GLabel 2700 3350 0    50   Output ~ 0
+VCAPL
+Text GLabel 1550 3600 0    50   Input ~ 0
+VCAPL
+Text GLabel 2700 3450 0    50   Output ~ 0
+GATE_DRV
+Text GLabel 3650 2700 2    50   Input ~ 0
+GATE_DRV
+Connection ~ 2050 3150
+Wire Wire Line
+	2050 3150 2250 3150
+Connection ~ 4600 3000
+Wire Wire Line
+	4600 3000 4650 3000
+Wire Wire Line
+	3750 3000 4600 3000
+Wire Wire Line
+	2250 3650 2700 3650
+Wire Wire Line
+	2250 3150 2250 3650
+Connection ~ 2250 3150
+Wire Wire Line
+	1550 3600 1650 3600
+Wire Wire Line
+	1650 3800 1750 3800
+Text GLabel 1750 3800 2    50   Input ~ 0
+VCAPH
 $EndSCHEMATC
